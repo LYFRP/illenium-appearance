@@ -12,10 +12,9 @@ Config.ChargePerTattoo = true -- Charge players per tattoo. Config.TattooCost wi
 -- Only set this to true if you're using rcore_tattoos
 Config.RCoreTattoosCompatibility = false
 
--- Only set this to true if you're using qs-inventorie V2 with cloths items enabled
-Config.InventoryQS = false -- false for other inventories or if you use qs inventorie v2 with cloths items disabled
-
 Config.AsynchronousLoading = false -- Change this to false if you want the NUI data to load before displaying the appearance UI
+
+Config.InventoryQS = true -- false for other inventories or if you use qs inventorie v2 with cloths
 
 Config.UseTarget = false
 
@@ -38,6 +37,8 @@ Config.EnablePedsForPlayerOutfitRooms = true
 
 Config.EnablePedMenu = true
 Config.PedMenuGroup = "group.admin"
+
+Config.EnableJobOutfitsCommand = false -- Enables /joboutfits and /gangoutfits commands
 
 Config.ShowNearestShopOnly = false
 Config.HideRadar = false -- Hides the minimap while the appearance menu is open
